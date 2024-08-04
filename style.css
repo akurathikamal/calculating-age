@@ -1,0 +1,41 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+  }
+  *{
+    margin: 10px;
+  }
+  body {
+    background: repeating-radial-gradient(circle, rgb(1, 49, 48), rgb(4, 30, 69) 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    padding: 10px;
+    h1,p{
+      text-align: center;
+      margin-top: 30px;
+    }
+  }
+  #result{
+    text-align: center;
+  }
+  button{
+    height: 40px;
+    width: fit-content;
+    background-color: goldenrod;
+    border-radius: 5px;
+  }
+  button:hover{
+      box-shadow: 0 4px 4px 0 black;
+      background-color: green;
+      border-radius: 10px;
+    }
+    input{
+      margin-top: 30px;
+    }
